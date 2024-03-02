@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(255, 235, 205, 0.6);
+    font-size: 100%;
+    color: black;
+    font-family: "Outfit"; font-weight: 300;
+    overflow-x: hidden;
+
+}
+:root{
+    --brown:  rgb(121, 31, 31);
+    --textColor: rgb(39, 38, 55);
+}
+.container{
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 20px;
+    
+}
+b{
+    font-weight: 400;
+}
+
+.main{
+    
+ background: whitesmoke;
+ max-width: 45em;
+ height: auto;
+ border-radius: 20px;
+ padding: 18rem 30px 30px; font-size: 12px;
+ position: relative;
+}
+img{
+    position: absolute;
+    border-radius: 6px;
+    width: 90%;
+    display: block;
+    top: 30px;
+
+}
+.heading{
+
+}
+span{
+    color: var(--textColor);
+}
+.list{
+padding-bottom: 30px;
+padding-left: 32px;
+border-bottom: 1px solid rgb(120,120,120, 0.3);
+
+}
+.list:nth-of-type(2){
+    list-style:numbers;
+
+}
+/* .list:nth-of-type(1){
+    border: none;
+} */
+
+.section
+{
+    background-color: rgba(236, 203, 236, 0.3);
+    border-radius: 14px;
+    padding: 10px 0 0 25px; border: none;
+}
+.List{
+    border: none;
+    padding-bottom: 15px;
+    font-weight: 350;
+}
+li{
+    padding-left: 8px;
+    color: var(--brown);
+}
+
+h1,h2,h3{
+padding: 10px 0 20px;
+color: var(--brown);
+font-size: 20px;
+font-family: "Young Serif"; 
+font-weight: 100;
+padding-left: 19px;
+
+}
+h1{
+    color: var(--textColor);
+    font-size: 30px;
+    padding-left: 0;
+}
+h3{
+    color: purple;
+    font-size: 14px;
+    padding:0; padding-left: 10px;
+}
+li{
+ line-height: 30px;
+}
+article{
+line-height: 18px;
+}
+
+article:nth-of-type(1){
+    padding-bottom: 30px;
+}
+
+.nutrition{
+
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+  
+}
+
+section{
+border-bottom: 1px solid rgb(120,120,120, 0.3);
+padding-bottom: 6px;  padding-left: 26px;
+}
+section:nth-child(2n + 2){
+ color: brown;
+ font-weight: 600;
+}
+section:nth-child(7){
+    border: none;
+}
+section:nth-child(8){
+    border: none;
+}
+
+footer{
+   
+    text-align: center;
+    padding: 20px 0 50px;
+    font-size: 17px;
+}
+h2{
+    padding-left: 0;
+}
+@media(max-width: 487px){
+
+    .container{
+        margin: 0;
+        font-size: 14px;
+    }
+    footer{
+        font-size: 10px;
+        display: grid;
+        row-gap: 2px;
+    }
+    img{
+        width: 100vw;
+        left: 0;
+        top: 8px;
+    }
+
+   
+}
